@@ -1,66 +1,64 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <img src="https://github.com/vlad-shepelenkoo/sneaker-store/blob/screens/screens/SneakerStudio.jpg" width="200" alt="Laravel Logo">
 </p>
 
-## About Laravel
+## About Sneaker Store
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The sneaker store is a modern online platform designed for the convenient and quick purchase of a footwear. It combines an intuitive interface, a wide range of products, and functional features aimed at enhancing the shopping experience.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Main Features of the Sneaker Store:
+- Product Catalog: The application offers users easy access to an extensive catalog of sneakers from various brands. Each product is accompanied by high-quality images, detailed descriptions, specifications, and customer reviews..
+- Filters and Search: Users can easily find the desired models using various filters such as size, brand, price, and category (sport, casual wear, etc.).
+- Cart and Checkout: The convenient feature of adding products to the cart and a straightforward checkout process allow customers to easily manage their purchases. The ability to edit the quantity and remove items from the cart makes shopping more comfortable.
+- User Account: Registration and the creation of a user account give customers the ability to track their order history, manage personal data, and save favorite sneakers.
+- Special Offers and Promotions: Information about discounts, promotions, and sales allows users to save money and make great purchases.
+- Reviews and Ratings: The ability to leave product reviews and rate items helps new customers make informed purchasing decisions.
+- Responsive Design: The application is optimized for various devices—from desktop computers to smartphones—providing users with easy access anytime and anywhere.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+**To install Node.js dependencies**
+```
+npm install
+```
 
-## Learning Laravel
+**To watch the blade compoment changes**
+```
+npm run dev
+```
+**To install PHP packages**
+```
+composer install
+```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Screenshots
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Home page
+Contains a list of categories, favorite items, promotional items and a navigation menu.
+<p align="center">
+    <img  src="https://github.com/vlad-shepelenkoo/sneaker-store/blob/screens/screens/hom-page.png"  alt="home-page"/>
+</p>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Shop page
+Presents a list of products that can be filtered by category, brand, etc. , and also sort by criteria.
+<p align="center">
+    <img  src="https://github.com/vlad-shepelenkoo/sneaker-store/blob/screens/screens/shop-page.png" alt="shop-page"/>
+</p>
 
-## Laravel Sponsors
+### Product details
+Includes information about the selected product (size, description), as well as user reviews.
+<p align="center">
+    <img  src="https://github.com/vlad-shepelenkoo/sneaker-store/blob/screens/screens/product-details.png" alt="product-details"/>
+</p>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### User dashboard
+The personal account allows the user to track order history, manage personal data and interact with the wishlist.
+<p align="center">
+    <img  src="https://github.com/vlad-shepelenkoo/sneaker-store/blob/screens/screens/account-details.png" alt="user-dashboard"/>
+</p>
 
-### Premium Partners
+### Admin dashboard
+The admin panel allows the administrator to track and manage order histories, interact with store data, and view a sales summary report.
+<p align="center">
+    <img  src="https://github.com/vlad-shepelenkoo/sneaker-store/blob/screens/screens/admin-page.png" alt="admin-dashboard"/>
+</p>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The sneaker store is a versatile tool for sports and fashion enthusiasts, offering convenient shopping and quality service. It not only allows for the purchase of high-quality footwear but also fosters a community of sneaker culture lovers.
